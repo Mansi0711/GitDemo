@@ -21,6 +21,9 @@ public class Day1 {
 	{
 		
 		System.out.println("Hello");
+		System.out.println("Hey");
+		System.out.println("Hero");
+		System.out.println("...");
 	}
 
 	@Test
@@ -28,6 +31,9 @@ public void SecondTest()
     {
 	
 	System.out.println("bye");
+	System.out.println("Hi");
+	System.out.println("Seeya");
+	System.out.println("Darling");
     }	
 	
 	
