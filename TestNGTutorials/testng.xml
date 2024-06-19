@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test thread-count="5" name="Personal Loan">
+  
+    <parameter name="URL" value="qaclick.com"/>
+    <classes>
+      <class name="test.Day1">
+        <methods>
+           <include name = "Demo"/>
+        </methods>
+      </class>
+      <class name="test.Day2"/>
+      <class name="test.Dya4"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Car Loan">
+      <parameter name="URL" value="carloan.com"/>
+    <classes>
+      <class name="test.Dya3">
+      <methods>
+        <include name="Mobile.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+  
+  
+  
+  
+  
+</suite> 

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-14T21:13:28 IST" name="Loan Department" finished-at="2024-05-14T21:13:28 IST" duration-ms="155">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.Demo()[pri:0, instance:test.Day1@4efc180e]" name="Demo" class="test.Day1"/>
+        <method signature="Day2.Demo()[pri:0, instance:test.Day2@7fee8714]" name="Demo" class="test.Day2"/>
+        <method signature="Dya4.MobileloginHomeloan()[pri:0, instance:test.Dya4@4229bb3f]" name="MobileloginHomeloan" class="test.Dya4"/>
+        <method signature="Dya3.MobileSignIncarloan()[pri:0, instance:test.Dya3@55634720]" name="MobileSignIncarloan" class="test.Dya3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-14T21:13:28 IST" name="Personal Loan" finished-at="2024-05-14T21:13:28 IST" duration-ms="50">
+      <class name="test.Day1">
+        <test-method signature="Demo()[pri:0, instance:test.Day1@4efc180e]" started-at="2024-05-14T21:13:28 IST" name="Demo" finished-at="2024-05-14T21:13:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="ExecuteLast()[pri:0, instance:test.Day1@4efc180e]" started-at="2024-05-14T21:13:28 IST" name="ExecuteLast" finished-at="2024-05-14T21:13:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteLast -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method is-config="true" signature="prerequisites()[pri:0, instance:test.Day2@7fee8714]" started-at="2024-05-14T21:13:28 IST" name="prerequisites" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisites -->
+        <test-method signature="Demo()[pri:0, instance:test.Day2@7fee8714]" started-at="2024-05-14T21:13:28 IST" name="Demo" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Dya4">
+        <test-method signature="MobileloginHomeloan()[pri:0, instance:test.Dya4@4229bb3f]" started-at="2024-05-14T21:13:28 IST" name="MobileloginHomeloan" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeloan -->
+        <test-method signature="webloginHomeloan(java.lang.String)[pri:0, instance:test.Dya4@4229bb3f]" started-at="2024-05-14T21:13:28 IST" name="webloginHomeloan" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclick.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginHomeloan -->
+      </class> <!-- test.Dya4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-05-14T21:13:28 IST" name="Car Loan" finished-at="2024-05-14T21:13:28 IST" duration-ms="21">
+      <class name="test.Day2">
+        <test-method is-config="true" signature="AFsuite()[pri:0, instance:test.Day2@7fee8714]" started-at="2024-05-14T21:13:28 IST" name="AFsuite" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFsuite -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Dya3">
+        <test-method is-config="true" signature="BFsuite()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BFsuite" finished-at="2024-05-14T21:13:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BFsuite -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="beforeclass" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="BM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM1 -->
+        <test-method signature="MobileRemotecarloan(java.lang.String)[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="MobileRemotecarloan" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileRemotecarloan -->
+        <test-method is-config="true" signature="BM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM1 -->
+        <test-method is-config="true" signature="AM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="AM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM1 -->
+        <test-method signature="MobileSignIncarloan()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="MobileSignIncarloan" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignIncarloan -->
+        <test-method is-config="true" signature="AM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="AM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM1 -->
+        <test-method is-config="true" signature="BM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM1 -->
+        <test-method signature="MobileSignOutcarloan(java.lang.String,java.lang.String)[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="MobileSignOutcarloan" data-provider="getdata" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutcarloan -->
+        <test-method is-config="true" signature="BM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM1 -->
+        <test-method is-config="true" signature="AM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="AM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM1 -->
+        <test-method signature="MobileSignOutcarloan(java.lang.String,java.lang.String)[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="MobileSignOutcarloan" data-provider="getdata" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutcarloan -->
+        <test-method signature="MobileSignOutcarloan(java.lang.String,java.lang.String)[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="MobileSignOutcarloan" data-provider="getdata" finished-at="2024-05-14T21:13:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutcarloan -->
+        <test-method is-config="true" signature="BM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="BM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM1 -->
+        <test-method is-config="true" signature="AM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="AM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM1 -->
+        <test-method is-config="true" signature="AM1()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="AM1" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM1 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.Dya3@55634720]" started-at="2024-05-14T21:13:28 IST" name="afterclass" finished-at="2024-05-14T21:13:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.Dya3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
